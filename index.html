@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Dock Exposé</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -15,10 +16,12 @@
 
       gtag("config", "G-P7GBPWC8LQ");
     </script>
+    <script src="./main.js"></script>
   </head>
   <body>
-    <h1>Dock Exposé</h1>
-    <img src="./logo.png" />
+        <section class="page">
+              <h1>Dock Exposé</h1>
+    <img style="float: left;margin: 10 10 0 0;" height="128" src="./logo.png" />
     <h4>
       download link:
       <a
@@ -26,27 +29,53 @@
         >https://github.com/steventheworker/Dock-Expos--home/releases/download/DockExpose/DockExposev1.0.zip</a
       >
     </h4>
-    <h4>Install</h4>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/4ExYDUwHCbo"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-    <h4>Demo</h4>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/U65oZ6fHHFU"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-    <br />
+
+      <h1 id="introduction">Introduction</h1>
+      <p>
+        Dock previews using App Exposé.
+        <a class="popupLink" href="javascript:void(0);clickPopupLabel();">Support FOSS</a>
+        <div class="popup">
+          Thats "Free Open Source Software" for ya 😉<br />
+          you can support us via:<br />
+          <ul>
+            <li><a href="https://www.paypal.com/biz/fund?id=EFHJW6S999DWS">PayPal</a></li>
+            <li>Credit Card (not ready)</li>
+            <li>Bitcoin (not ready)</li>
+          </ul>
+        </div>
+      </p>
+      <div class="demo">
+        <ul class="labels">
+          <li><h3 class="activeLabel" id="0">Install Video</h3></li>
+          <li>
+            <h3 id="1">Demo Video</h3>
+          </li>
+        </ul>
+        <ul class="vids youtubePreviewMode">
+          <li class="activeVid">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/4ExYDUwHCbo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/U65oZ6fHHFU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+        </ul>
+      </div>
+    </section>
 
     <img src="./sister.png" />
     <h2>
