@@ -8,3 +8,7 @@
 Just give accessibility permissions and you're set.
 
 I'm in the process of notarizing the app with apple right now!
+
+
+
+### Also: Check out https://dockalttab.netlify.app
