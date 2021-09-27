@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: rgb(50, 50, 40);
+  background-color: rgb(35, 37, 38);
   width: 100%;
   line-height: 1.6;
   margin: 0;
@@ -131,7 +131,7 @@ h3.activeLabel {
 .youtubePreviewMode {
   height: 200px;
   overflow: hidden;
-  opacity: 0.2;
+  opacity: 0.4;
   width: 100%;
   cursor: pointer;
 }
