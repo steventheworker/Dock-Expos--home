@@ -12,85 +12,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
     sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
-header {
+footer {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-header a {
-  color: white;
-}
-header h1 {
-  margin: 20px 0 5px 10px;
-  line-height: 1;
-}
-header p {
-  margin: 0 0 0 10px;
-  color: rgb(168, 160, 149);
-}
-header > div {
-  display: flex;
-  margin-top: 5px;
-}
-nav {
-  position: sticky;
-  z-index: 1000000;
-  top: 0;
-  width: 100%;
-  background-color: rgb(28, 30, 31);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-nav ul a {
-  display: block;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 15px;
-  color: #468ed8;
-}
-nav ul a.rainbow {
-  background: linear-gradient(
-    60deg,
-    #f79533,
-    #f37055,
-    #ef4e7b,
-    #a166ab,
-    #5073b8,
-    #1098ad,
-    #07b39b,
-    #6fba82
-  );
-  animation: animatedgradient 5s linear alternate infinite;
-  background-size: 300% 300%;
-  text-decoration: none;
-  margin-right: 10px;
-  color: #fff;
-}
-@media screen {
-  nav ul a.rainbow {
-    background-image: linear-gradient(
-      60deg,
-      rgb(171, 89, 7),
-      rgb(150, 34, 11),
-      rgb(153, 14, 53),
-      rgb(117, 68, 125),
-      rgb(57, 86, 141),
-      rgb(13, 122, 138),
-      rgb(6, 143, 124),
-      rgb(58, 121, 86)
-    );
-    background-color: initial;
-    color: rgb(232, 230, 227);
-  }
+  text-align: center;
 }
 body,
 h1,
@@ -162,4 +86,10 @@ h3.activeLabel {
   margin-left: -155px;
   margin-top: -18px;
   font-size: 12px;
+}
+.seo-text {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
 }
