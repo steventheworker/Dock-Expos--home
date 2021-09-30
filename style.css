@@ -4,6 +4,7 @@ html {
   width: 100%;
   line-height: 1.6;
   margin: 0;
+  padding: 0;
 }
 body {
   display: flex;
@@ -26,19 +27,30 @@ h4 {
 a {
   color: rgba(76, 172, 252);
 }
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  margin-top: -10px;
+}
 .page {
   width: 100%;
   max-width: 700px;
   padding-left: 10px;
   padding-right: 10px;
+  box-sizing: border-box;
   word-break: break-word;
 }
 
+.vids {
+  padding: 0;
+  margin: 0;
+}
 .labels li {
   float: left;
   list-style: none;
-  margin-right: 2em;
   cursor: pointer;
+  width: 50%;
 }
 .labels h2 {
   color: #468ed8;
