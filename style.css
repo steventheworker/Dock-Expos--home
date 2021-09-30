@@ -40,10 +40,10 @@ a {
   margin-right: 2em;
   cursor: pointer;
 }
-.labels h3 {
+.labels h2 {
   color: #468ed8;
 }
-h3.activeLabel {
+h2.activeLabel {
   color: rebeccapurple;
 }
 .demo .vids li {
