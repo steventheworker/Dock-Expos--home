@@ -54,11 +54,15 @@ a {
   padding: 0;
   margin: 0;
 }
+.labels {
+  margin-left: -5%;
+}
 .labels li {
   float: left;
   list-style: none;
   cursor: pointer;
-  width: 50%;
+  max-width: 40%;
+  margin-right: 5%;
 }
 .labels h2 {
   color: #468ed8;
