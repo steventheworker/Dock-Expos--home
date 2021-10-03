@@ -149,3 +149,7 @@ h2.activeLabel {
   color: #71ff71;
   font-weight: bold;
 }
+
+.bwc-modal-container {
+  z-index: 9999999 !important;
+}
