@@ -55,20 +55,11 @@ function popup() {
   return document.querySelector(".popup");
 }
 function popupConditionsMet(e) {
-  const tar = e.target;
-  const par = e.target.parentNode,
-    parpar = par.parentNode,
-    parparpar = parpar && parpar.parentNode;
-  return (
-    tar.classList.contains("popupLink") ||
-    tar.classList.contains("popup") ||
-    (par && parpar && parpar.classList && parpar.classList.contains("popup")) ||
-    (par &&
-      parpar &&
-      parparpar &&
-      parparpar.classList &&
-      parparpar.classList.contains("popup"))
-  );
+  const tar = (e && e.target) || e;
+  if (!e || !tar || !tar.classList) return false;
+  if (tar.classList.contains("popupLink") || tar.classList.contains("popup"))
+    return true;
+  return popupConditionsMet(tar.parentNode);
 }
 function clickPopupLabel() {
   popupClicked = true;
