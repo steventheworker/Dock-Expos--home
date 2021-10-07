@@ -153,3 +153,13 @@ h2.activeLabel {
 .bwc-modal-container {
   z-index: 9999999 !important;
 }
+
+.changelog {
+  text-align: left;
+}
+.changelog li {
+  list-style: none;
+}
+.changelog li li {
+  list-style: circle;
+}
