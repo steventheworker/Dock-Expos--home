@@ -158,8 +158,12 @@ h2.activeLabel {
   text-align: left;
 }
 .changelog li {
-  list-style: none;
+  list-style: outside;
 }
 .changelog li li {
-  list-style: circle;
+  list-style: inside;
+  padding-left: 1em;
+}
+.changelog ul {
+  padding: 0;
 }
