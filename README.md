@@ -4,7 +4,7 @@
 
 ### Dock Exposé app download link:
 
-##### https://github.com/steventheworker/Dock-Expos--home/releases/download/v1.3/DockExposev1.3.zip
+##### https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.1/DockExposev2.1.zip
 
 Just give accessibility permissions and you're set.
 
