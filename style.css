@@ -36,6 +36,9 @@ a {
   color: rgba(76, 172, 252);
 }
 
+#intro-para {
+  margin-top: -1em;
+}
 .logo {
   float: left;
   margin-right: 10px;
@@ -161,7 +164,7 @@ h2.activeLabel {
   text-align: left;
   overflow-y: auto;
   outline: 1px solid #484640;
-  max-height: 20em;
+  max-height: 18.5em;
   width: 90%;
 }
 .changelog.youtubePreviewMode {
@@ -181,4 +184,8 @@ h2.activeLabel {
 }
 .changelog ul {
   padding: 0;
+}
+.changelog h4 {
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
 }
