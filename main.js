@@ -43,9 +43,7 @@ function checkYoutubeClick(tar) {
   if (tar.classList.contains("youtubePreviewMode")) {
     //is either clicking on prevMiewode   .vid   OR   a vid's   .labels li
     if (document.querySelector(".youtubePreviewMode"))
-      return document
-        .querySelector(".youtubePreviewMode")
-        .classList.remove("youtubePreviewMode");
+      return tar.classList.remove("youtubePreviewMode");
   }
 }
 

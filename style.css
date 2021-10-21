@@ -156,6 +156,16 @@ h2.activeLabel {
 
 .changelog {
   text-align: left;
+  overflow-y: auto;
+  outline: 1px solid #484640;
+  max-height: 29em;
+  width: 100%;
+}
+.changelog.youtubePreviewMode {
+  max-height: 11.5em;
+}
+.changelog.youtubePreviewMode li {
+  pointer-events: none;
 }
 .changelog li {
   list-style: outside;
