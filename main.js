@@ -42,8 +42,7 @@ function checkYoutubeClick(tar) {
   }
   if (tar.classList.contains("youtubePreviewMode")) {
     //is either clicking on prevMiewode   .vid   OR   a vid's   .labels li
-    if (document.querySelector(".youtubePreviewMode"))
-      return tar.classList.remove("youtubePreviewMode");
+    tar.classList.remove("youtubePreviewMode");
   }
 }
 
@@ -64,6 +63,10 @@ function clickPopupLabel() {
 }
 
 //init
+let lastTarget;
+let didScroll;
+let startScrollY1 = 0;
+let startScrollY2 = 0;
 window.onload = function (e) {
   //listen to events
 
@@ -72,6 +75,32 @@ window.onload = function (e) {
     //youtube vids
     checkYoutubeClick(e.target);
     popupClicked = false;
+  });
+
+  //touch
+  window.addEventListener("touchstart", function (e) {
+    startScrollY1 = window.scrollY;
+    startScrollY2 = document.querySelector(".changelog").scrollTop;
+  });
+  window.addEventListener("touchmove", function (e) {
+    if (
+      window.scrollY !== startScrollY1 ||
+      document.querySelector(".changelog").scrollY !== startScrollY2
+    )
+      didScroll = true;
+    startScrollY1 = window.scrollY;
+    startScrollY2 = document.querySelector(".changelog").scrollTop;
+    lastTarget = e.target;
+  });
+  window.addEventListener("touchend", function (e) {
+    if (!didScroll) {
+      checkYoutubeClick(e.target);
+      showingPopup = false;
+      popup().classList.remove("showing");
+    }
+    didScroll = false;
+    startScrollY2 = 0;
+    startScrollY1 = 0;
   });
 
   //mousemove

@@ -54,6 +54,9 @@ a {
   padding: 0;
   margin: 0;
 }
+.vids iframe {
+  max-width: 100%;
+}
 .labels {
   margin-left: -5%;
   width: 105%;
@@ -158,13 +161,15 @@ h2.activeLabel {
   text-align: left;
   overflow-y: auto;
   outline: 1px solid #484640;
-  max-height: 29em;
-  width: 100%;
+  max-height: 20em;
+  width: 90%;
 }
 .changelog.youtubePreviewMode {
-  max-height: 11.5em;
+  max-height: 10.5em;
+  opacity: 0.8;
+  outline: 1px solid white;
 }
-.changelog.youtubePreviewMode li {
+.changelog.youtubePreviewMode li * {
   pointer-events: none;
 }
 .changelog li {
