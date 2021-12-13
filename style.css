@@ -1,191 +1,198 @@
 body,
 html {
-  background-color: rgb(35, 37, 38);
-  width: 100%;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+	background-color: rgb(35, 37, 38);
+	width: 100%;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+		sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 header h4 {
-  font-size: 0.5em;
+	font-size: 0.5em;
 }
 @media screen and (min-width: 400px) {
-  header h4 {
-    font-size: 1em;
-  }
+	header h4 {
+		font-size: 1em;
+	}
 }
 footer {
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	text-align: center;
 }
 body,
 h1,
 h2,
 h3,
 h4 {
-  color: white;
+	color: white;
 }
 a {
-  color: rgba(76, 172, 252);
+	color: rgba(76, 172, 252);
 }
 
 #intro-para {
-  margin-top: -1em;
+	margin-top: -1em;
 }
 .logo {
-  float: left;
-  margin-right: 10px;
-  margin-top: -10px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -10px;
 }
 .page {
-  width: 100%;
-  max-width: 700px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
-  word-break: break-word;
+	width: 100%;
+	max-width: 700px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	word-break: break-word;
 }
 
 .vids {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 .vids iframe {
-  max-width: 100%;
+	max-width: 100%;
 }
 .labels {
-  margin-left: -5%;
-  width: 105%;
+	margin-left: -5%;
+	width: 105%;
 }
 .labels li {
-  float: left;
-  list-style: none;
-  cursor: pointer;
-  max-width: 40%;
-  margin-right: 5%;
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	max-width: 40%;
+	margin-right: 5%;
 }
 .labels h2 {
-  color: #468ed8;
+	color: #468ed8;
 }
 h2.activeLabel {
-  color: rebeccapurple;
+	color: rebeccapurple;
 }
 .demo .vids li {
-  display: none;
+	display: none;
 }
 .demo .activeVid {
-  display: block !important;
+	display: block !important;
 }
 .youtubePreviewMode {
-  height: 200px;
-  overflow: hidden;
-  opacity: 0.4;
-  width: 100%;
-  cursor: pointer;
-  margin-left: -5px;
+	height: 200px;
+	overflow: hidden;
+	opacity: 0.4;
+	width: 100%;
+	cursor: pointer;
+	margin-left: -5px;
 }
 .youtubePreviewMode * {
-  pointer-events: none;
+	pointer-events: none;
 }
 
 .popup {
-  background: rgba(0, 0, 0, 0.8);
-  color: orange;
-  text-shadow: 0 0 1px red;
-  position: absolute;
-  z-index: 9999999;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.333s ease-in-out;
+	background: rgba(0, 0, 0, 0.8);
+	color: orange;
+	text-shadow: 0 0 1px red;
+	position: absolute;
+	z-index: 9999999;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.333s ease-in-out;
 }
 .showing {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 .popupLink {
-  padding: 15px;
+	padding: 15px;
 }
 
 .floating-label {
-  position: absolute;
-  margin-left: -155px;
-  margin-top: -18px;
-  font-size: 12px;
+	position: absolute;
+	margin-left: -155px;
+	margin-top: -18px;
+	font-size: 12px;
 }
 .seo-text {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
 }
 
 .payment-methods ul {
-  display: none;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  margin-left: -3px;
-  padding-left: 7px;
+	display: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	margin-left: -3px;
+	padding-left: 7px;
 }
 .payment-methods a:hover {
-  color: white;
+	color: white;
 }
 .payment-methods a:hover + ul,
 .payment-methods ul:hover {
-  display: inline;
+	display: inline;
 }
 .popup li {
-  list-style-type: lower-roman;
-  color: #71ff71;
+	list-style-type: lower-roman;
+	color: #71ff71;
 }
 .payment-methods ul li {
-  display: inline;
-  padding-left: 5px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+	display: inline;
+	padding-left: 5px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .payment-methods ul li a {
-  color: #71ff71;
-  font-weight: bold;
+	color: #71ff71;
+	font-weight: bold;
 }
 
 .bwc-modal-container {
-  z-index: 9999999 !important;
+	z-index: 9999999 !important;
 }
 
 .changelog {
-  text-align: left;
-  overflow-y: auto;
-  outline: 1px solid #484640;
-  max-height: 18.5em;
-  width: 90%;
+	text-align: left;
+	overflow-y: auto;
+	outline: 1px solid #484640;
+	max-height: 18.5em;
+	width: 90%;
 }
 .changelog.youtubePreviewMode {
-  max-height: 10.5em;
-  opacity: 0.8;
-  outline: 1px solid white;
+	max-height: 10.5em;
+	opacity: 0.8;
+	outline: 1px solid white;
 }
 .changelog.youtubePreviewMode li * {
-  pointer-events: none;
+	pointer-events: none;
 }
 .changelog li {
-  list-style: outside;
+	list-style: outside;
 }
 .changelog li li {
-  list-style: inside;
-  padding-left: 1em;
+	list-style: inside;
+	padding-left: 1em;
 }
 .changelog ul {
-  padding: 0;
+	padding: 0;
+	position: relative;
 }
 .changelog h4 {
-  margin-top: 0.2em;
-  margin-bottom: 0.5em;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
+.changelog span {
+	position: absolute;
+	right: 50px;
+	font-weight: 100;
+	color: grey;
 }
