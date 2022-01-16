@@ -129,7 +129,21 @@ window.onload = function (e) {
 	});
 };
 
+function addCurrentReleaseLabel() {
+	const currentRelease = document.createElement("strong");
+	currentRelease.style.background = "rgb(83,158,219)";
+	currentRelease.appendChild(document.createTextNode("(current release)"));
+	const releaseHeader = document.querySelector(".changelog ul h7");
+	releaseHeader.appendChild(document.createTextNode("\u00A0"));
+	releaseHeader.appendChild(currentRelease);
+}
+
 //removes (2nd Changelog entry) (so ppl don't see too many updates too close together) (looks unprofessional)
 setTimeout(function () {
-	document.querySelectorAll(".changelog ul")[1].parentNode.remove();
+	document.querySelectorAll(".changelog ul")[0].parentNode.remove();
+	document.querySelectorAll("a")[1].innerHTML =
+		"https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.2/DockExposev2.2.zip";
+	document.querySelectorAll(".changelog a")[0].href =
+		"https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.3/DockExposev2.3.zip";
+	addCurrentReleaseLabel();
 });
