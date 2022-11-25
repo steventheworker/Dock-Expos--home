@@ -6,6 +6,6 @@
 
 ##### https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.92/DockExposev2.92.zip
 
-Just give accessibility permissions and you're set.
+Just grant Accessibility & Input Monitoring permissions and you're set.
 
 ### Also: Check out https://dockalttab.netlify.app
