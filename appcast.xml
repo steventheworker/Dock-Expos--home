@@ -11,7 +11,7 @@
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://DockExpose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
-            url="https://github.com/steventheworker/Dock-Expose/releases/download/v3.00.0/Dock-Expose-3.00.0.zip"
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.0/Dock-Expose-3.00.0.zip"
             sparkle:version="3.00.0"
             sparkle:shortVersionString="3.00.0"
             sparkle:edSignature="4Z2X8zInH661++q75XbVGaaxCIVmIHIAPzy2IKF4tix1swbQfgSpraUTfadcMicI4JhOvELM3X7R+tz9LNi1DA==" length="1035823"
@@ -23,7 +23,7 @@
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
-            url="https://github.com/steventheworker/Dock-Expose/releases/download/v3.00.0/Dock-Expose-3.00.0-legacy.zip"
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.0/Dock-Expose-3.00.0-legacy.zip"
             sparkle:version="3.00.0"
             sparkle:shortVersionString="3.00.0"
             sparkle:edSignature="" length=""
@@ -37,7 +37,7 @@
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://DockExpose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
-            url="https://github.com/steventheworker/Dock-Expose/releases/download/v2.92.0/Dock-Expose-2.92.0.zip"
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.92.0/Dock-Expose-2.92.0.zip"
             sparkle:version="2.92.0"
             sparkle:shortVersionString="2.92.0"
             sparkle:edSignature="" length=""
@@ -49,7 +49,7 @@
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
-            url="https://github.com/steventheworker/Dock-Expose/releases/download/v2.92.0/Dock-Expose-2.92.0-legacy.zip"
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.92.0/Dock-Expose-2.92.0-legacy.zip"
             sparkle:version="2.92.0"
             sparkle:shortVersionString="2.92.0"
             sparkle:edSignature="" length=""
