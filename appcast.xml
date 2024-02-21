@@ -7,26 +7,26 @@
       <!-- 2 item per update (11.3, legacy (10.12))  -->
       <item>
          <title>Version 3.00.0</title>
-         <pubDate>Wed, 07 October 2023 01:00:00 +0000</pubDate>
+         <pubDate>Tue, 20 February 2024 21:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://DockExpose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/Dock-Expose/releases/download/v3.00.0/Dock-Expose-3.00.0.zip"
             sparkle:version="3.00.0"
             sparkle:shortVersionString="3.00.0"
-            sparkle:edSignature="YNfzqfLOxc/lSEyUEZmt/sYrIIUOOXv9t73+M3wnL5JW2PMTm3t6EdGIyYCVv4OoFKhLfD4IDkavqJlfSw0UCA==" length="1736458"
+            sparkle:edSignature="4Z2X8zInH661++q75XbVGaaxCIVmIHIAPzy2IKF4tix1swbQfgSpraUTfadcMicI4JhOvELM3X7R+tz9LNi1DA==" length="1035823"
             type="application/octet-stream"/>
       </item>
       <item>
          <title>Version 3.00.0</title>
-         <pubDate>Wed, 07 October 2023 01:00:00 +0000</pubDate>
+         <pubDate>Tue, 20 February 2024 21:00:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/Dock-Expose/releases/download/v3.00.0/Dock-Expose-3.00.0-legacy.zip"
             sparkle:version="3.00.0"
             sparkle:shortVersionString="3.00.0"
-            sparkle:edSignature="z4k5/HrSbloLMgMh12s5Dtm2vjzv1W6j8nGtPPCmneaVtNlTTg/YGcs8ZMwQGfCov4IUiGgKnFmlJ350DTFgCQ==" length="8819618"
+            sparkle:edSignature="" length=""
             type="application/octet-stream"/>
       </item>
 
@@ -40,7 +40,7 @@
             url="https://github.com/steventheworker/Dock-Expose/releases/download/v2.92.0/Dock-Expose-2.92.0.zip"
             sparkle:version="2.92.0"
             sparkle:shortVersionString="2.92.0"
-            sparkle:edSignature="YNfzqfLOxc/lSEyUEZmt/sYrIIUOOXv9t73+M3wnL5JW2PMTm3t6EdGIyYCVv4OoFKhLfD4IDkavqJlfSw0UCA==" length="1736458"
+            sparkle:edSignature="" length=""
             type="application/octet-stream"/>
       </item>
       <item>
@@ -52,7 +52,7 @@
             url="https://github.com/steventheworker/Dock-Expose/releases/download/v2.92.0/Dock-Expose-2.92.0-legacy.zip"
             sparkle:version="2.92.0"
             sparkle:shortVersionString="2.92.0"
-            sparkle:edSignature="z4k5/HrSbloLMgMh12s5Dtm2vjzv1W6j8nGtPPCmneaVtNlTTg/YGcs8ZMwQGfCov4IUiGgKnFmlJ350DTFgCQ==" length="8819618"
+            sparkle:edSignature="" length=""
             type="application/octet-stream"/>
       </item>
 
