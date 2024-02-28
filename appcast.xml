@@ -5,6 +5,32 @@
       <language>en</language>
       <!-- 2 item per update (11.3, legacy (10.12))  -->
       <item>
+         <title>Version 3.00.4</title>
+         <pubDate>Wed, 27 February 2024 10:11:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://DockExpose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.4/Dock-Expose-3.00.4.zip"
+            sparkle:version="3.00.4"
+            sparkle:shortVersionString="3.00.4"
+            sparkle:edSignature="62DW7c8ZpB2PdjlY4v6ih7AAPPEcZYGG6Wyzp0TvxqbNQa8C/FbalWFE5YEeHgPGpRm7IXzm9S7euPpPkxwmCw==" length="1039133"
+            type="application/octet-stream"/>
+      </item>
+      <item>
+         <title>Version 3.00.4</title>
+         <pubDate>Wed, 27 February 2024 10:11:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.4/Dock-Expose-3.00.4-legacy.zip"
+            sparkle:version="3.00.4"
+            sparkle:shortVersionString="3.00.4"
+            sparkle:edSignature="" length=""
+            type="application/octet-stream"/>
+      </item>
+
+      <!-- 2 item per update (11.3, legacy (10.12))  -->
+      <item>
          <title>Version 3.00.2</title>
          <pubDate>Wed, 21 February 2024 10:45:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
@@ -17,7 +43,7 @@
             type="application/octet-stream"/>
       </item>
       <item>
-         <title>Version 3.00.1</title>
+         <title>Version 3.00.2</title>
          <pubDate>Wed, 21 February 2024 10:45:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
          <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
