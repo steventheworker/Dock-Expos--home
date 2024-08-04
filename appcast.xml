@@ -5,6 +5,32 @@
       <language>en</language>
       <!-- 2 item per update (11.3, legacy (10.12))  -->
       <item>
+         <title>Version 3.00.5</title>
+         <pubDate>Sun, 4 August 2024 03:11:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://DockExpose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.5/Dock-Expose-3.00.5.zip"
+            sparkle:version="3.00.5"
+            sparkle:shortVersionString="3.00.5"
+            sparkle:edSignature="yc+SYsjCIBPqmUKoWsAwjGuqB7SZjtItniXZMEtcJ9PAOfPavtzHJIW1teXe9qZCaBWZO4h/1YZx9ivLbhjHCA==" length="1043334"
+            type="application/octet-stream"/>
+      </item>
+      <item>
+         <title>Version 3.00.5</title>
+         <pubDate>Sun, 4 August 2024 03:11:00 +0000</pubDate>
+         <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+         <sparkle:releaseNotesLink>https://Dock-Expose.netlify.app/changelog-sparkle</sparkle:releaseNotesLink>
+         <enclosure
+            url="https://github.com/steventheworker/Dock-Expos--home/releases/download/v3.00.5/Dock-Expose-3.00.5-legacy.zip"
+            sparkle:version="3.00.5"
+            sparkle:shortVersionString="3.00.5"
+            sparkle:edSignature="" length=""
+            type="application/octet-stream"/>
+      </item>
+
+      <!-- 2 item per update (11.3, legacy (10.12))  -->
+      <item>
          <title>Version 3.00.4</title>
          <pubDate>Wed, 27 February 2024 10:11:00 +0000</pubDate>
          <sparkle:minimumSystemVersion>11.3</sparkle:minimumSystemVersion>
