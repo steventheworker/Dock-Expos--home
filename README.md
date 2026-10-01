@@ -1,11 +1,7 @@
-# Dock-Expos--home
+# Dock-Exposé website
 
-## This is the codebase for: http://dockexpose.netlify.app
+This is the website for [dockexpose.netlify.app](https://dockexpose.netlify.app).
 
-### Dock Exposé app download link:
+The current release is Dock Exposé 4.0.0. The downloadable app is published as a GitHub Release in this repository; the app itself is closed source.
 
-##### https://github.com/steventheworker/Dock-Expos--home/releases/download/v2.92/DockExposev2.92.zip
-
-Just grant Accessibility & Input Monitoring permissions and you're set.
-
-### Also: Check out https://dockalttab.netlify.app
+See the [permissions guide](https://dockexpose.netlify.app/docs/permissions) and [compatibility information](https://dockexpose.netlify.app/#introduction) before installing.

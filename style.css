@@ -119,6 +119,32 @@ h2.activeLabel {
 	margin-top: -18px;
 	font-size: 12px;
 }
+.release-info {
+	margin: 1.5em 0;
+	padding: 0 1em 1em;
+	border: 1px solid #484640;
+}
+.release-info h2 {
+	color: #8fc7ff;
+}
+.compatibility-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.compatibility-table th,
+.compatibility-table td {
+	border: 1px solid #555;
+	padding: 0.35em 0.55em;
+	text-align: left;
+}
+.compatibility-table th {
+	background: #303537;
+}
+code {
+	background: #303537;
+	padding: 0.1em 0.3em;
+	border-radius: 3px;
+}
 .seo-text {
 	width: 1px;
 	height: 1px;
