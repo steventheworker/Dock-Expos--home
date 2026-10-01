@@ -52,10 +52,10 @@ CURRENT_VERSION="$ROOT/currentversion.txt"
 EXPECTED_ZIP="Dock-Expose-$VERSION.zip"
 
 if [ -z "$BUILD_VERSION" ]; then
-    if [ "$VERSION" = "4.0.0" ]; then
+    if [ "$VERSION" = "4.00.0" ]; then
         BUILD_VERSION=40000
     else
-        echo "error: pass --build-version for releases other than 4.0.0" >&2
+        echo "error: pass --build-version for releases other than 4.00.0" >&2
         exit 1
     fi
 fi
